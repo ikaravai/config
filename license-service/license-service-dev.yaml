@@ -4,4 +4,4 @@ spring:
   datasource:
     url: jdbc:postgresql://postgres:5432/ms_prac
     username: postgres
-    password: postgres
+    password: {cipher}32ff44fe0321158780149109b6770bd36271e5dac815362c4fecf776813209a1
