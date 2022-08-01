@@ -5,3 +5,7 @@ spring:
     url: jdbc:postgresql://postgres:5432/ms_prac
     username: postgres
     password: postgres
+  sql:
+    init:
+      schema-locations: classpath:/sql/schema.sql
+      data-locations: classpath:/sql/data.sql
